@@ -20,6 +20,9 @@ metadata:
 - 自動同步：Windows 排程工作 `ClaudeMemorySync`，每 10 分鐘執行一次
 - 同步腳本：`C:\Users\4a71d\.claude\sync-memory.ps1`
 
-## 待完成
-- [ ] 電腦 B：安裝 Git，clone repo 到對應 memory 目錄，設定排程工作
-- [ ] RemoteTrigger：設定 claude.ai 雲端 Agent 讓兩台設備互相觸發任務
+## 已完成（雲端 Agent）
+- Memory Sync Summary：trig_0179X5RVFXZKGpKLCfoUAzaC — 手動觸發，摘要兩台設備記憶體狀態
+- Cross Device Task：trig_01CC68SYqigjWVxxFuGvnrhi — 手動觸發，讀取 TASK_QUEUE.md 執行任務並 push 結果
+- claude-shared-memory repo 設為 Public（內容無敏感資料）
+
+## 系統完整可用
